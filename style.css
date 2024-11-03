@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+font-family: "Gabarito", serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    align-items: center;
+    
+
+}
+.navbar_s1{
+    color: purple;
+}
+.navbar_s2{
+    border:  solid black 1px;
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+    width: 50%;
+}
+.navbar_s2 input{
+    border: none;
+    width: 100%;
+    padding-left: 10px;
+    font-size: 16px;
+    
+}
+.navbar_s2 input:focus{
+    outline: none;
+}
+.navbar_s3{
+    display: flex;
+    gap: 10px;
+}
+.catagories{
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border-bottom: solid black 1px;
+}
+.catagories p{
+    background-color: purple;
+    border-radius: 20px;
+    padding: 10px;
+}
+.udemy-image img{
+    width: 100%;
+}
+.recommended{
+    padding: 10px;
+}
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-around;
+
+   
+}
+.course_card{
+    width: 200px;
+}
+.course_card img{
+    width: 100%;
+}
+.topics{
+    padding: 10px;
+}
+.topics_container{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    
+
+
+}
+.topics_container p{
+    border: solid gray 2px;
+    gap: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+
+}
