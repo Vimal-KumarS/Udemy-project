@@ -41,11 +41,13 @@ font-family: "Gabarito", serif;
 .catagories{
     display: flex;
     padding: 10px;
+    flex-wrap: wrap;
     justify-content: space-around;
     border-bottom: solid black 1px;
 }
 .catagories p{
     background-color: purple;
+    flex-basis: 10%;
     border-radius: 20px;
     padding: 10px;
 }
@@ -76,14 +78,49 @@ font-family: "Gabarito", serif;
     display: flex;
     margin-top: 10px;
     gap: 10px;
-    
+    flex-wrap: wrap;
 
 
 }
 .topics_container p{
     border: solid gray 2px;
+    padding: 5px;
     gap: 10px;
     flex-grow: 1;
     flex-basis: 25%;
+}
+.popular{
+    padding: 10px;
+}
+.popular__container{
+    display: flex;
+    margin-top: 10px;
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 50%
+}
+.footer{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    color: white;
+    background-color: black;
+
+}
+.footer__container1 p, .footer__container2 p{
+    gap: 5px;
+
+}
+.footerend{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    
+}
+.footerend h1, .footerend p{
+    color: purple; 
 
 }
